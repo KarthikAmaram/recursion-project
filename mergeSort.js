@@ -11,7 +11,7 @@ function mergeSort(array) {
     let left = mergeSort(leftArray);
     let right = mergeSort(rightArray);
     
-    return merge(mergeSort(left), mergeSort(right));
+    return merge(left, right);
 
 }
 
